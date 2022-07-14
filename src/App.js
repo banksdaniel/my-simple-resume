@@ -37,7 +37,7 @@ Sou motivado, focado em resultados e busco uma empresa de sucesso, orientada par
               <div class="right">
                 <div class="name">Estágiario de Desenvolvimento</div>
                 <div class="desc">• Desenvolvimento WEB - Java <br></br>
-                • DML Banco MySQ
+                • DML Banco MySQL
                 </div>
               </div>
             </div>
