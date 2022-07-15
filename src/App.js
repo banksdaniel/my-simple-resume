@@ -17,11 +17,18 @@ function App() {
         </div>
       </div>
       <div class="about">
-            <span class="position"><b>Estudante de Ciência da Computação</b></span>
-            <br></br>
-            <span class="desc">Atualmente graduando em Ciência da Computação, no Centro de Ensino Unificado de Brasília.
-            <br></br>
-Sou motivado, focado em resultados e busco uma empresa de sucesso, orientada para equipes e com oportunidade de crescimento.</span>
+      <div class="details">
+      <div class="section__title">SOBRE</div>
+      </div>
+        <span class="position">
+        </span>
+        <span class="desc">
+          Atualmente graduando em Ciência da Computação, no Centro de Ensino
+          Unificado de Brasília.
+          <br></br>
+          Sou motivado, focado em resultados e busco uma empresa de sucesso,
+          orientada para equipes e com oportunidade de crescimento.
+        </span>
       </div>
       <div class="details">
         <div class="section">
@@ -30,14 +37,31 @@ Sou motivado, focado em resultados e busco uma empresa de sucesso, orientada par
           <div class="section__list">
             <div class="section__list-item">
               <div class="left">
-                <div class="name"></div>
-                <div class="addr">Embrapa Recursos Genéticos e Biotecnologia</div>
+                <div class="name">Coopersystem - Soluções em TI</div>
+                <div class="desc">
+                Brasília, Distrito Federal, Brasil
+                </div>
+                <div class="duration">Abr 2022 - o momento</div>
+              </div>
+              <div class="right">
+                <div class="name">Estágiario de Desenvolvimento</div>
+                <div class="desc">
+                  • NodeJS | Javascript ES6  <br></br>• GraphQL | Firebase
+                </div>
+              </div>
+            </div>
+            <div class="section__list-item">
+              <div class="left">
+                <div class="name">Embrapa Recursos Genéticos e Biotecnologia</div>
+                <div class="desc">
+                Brasília, Distrito Federal, Brasil
+                </div>
                 <div class="duration">Mar 2021 - Mar 2022</div>
               </div>
               <div class="right">
                 <div class="name">Estágiario de Desenvolvimento</div>
-                <div class="desc">• Desenvolvimento WEB - Java <br></br>
-                • DML Banco MySQL
+                <div class="desc">
+                  • Desenvolvimento WEB - Java <br></br>• DML Banco MySQL
                 </div>
               </div>
             </div>
