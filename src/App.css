@@ -149,3 +149,7 @@ body {
 .details .skills__item .right input:checked+label {
   background: #79A9CE;
 }
+
+.github {
+  padding-right: 15px;
+}
