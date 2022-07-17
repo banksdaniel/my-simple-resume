@@ -110,7 +110,7 @@ body {
 }
 
 .details .right {
-  tex-align: right;
+  text-align: right;
   width: 39%;
 }
 
