@@ -128,27 +128,6 @@ body {
   color: #000;
 }
 
-.details .skills__item {
-  margin-bottom: 10px;
-}
-
-.details .skills__item .right input {
-  display: none;
-}
-
-.details .skills__item .right label {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background: #C3DEF3;
-  border-radius: 20px;
-  margin-right: 3px;
-}
-
-.details .skills__item .right input:checked+label {
-  background: #79A9CE;
-}
-
 .github {
   margin-right: 1%;
 }
