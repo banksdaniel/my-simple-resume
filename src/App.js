@@ -1,6 +1,9 @@
 import "./App.css";
 
-function App() {
+function App() {  
+  const progress = document.querySelector('.progress-done');
+  progress.style.width = progress.getAttribute('data-done') + '%';
+  progress.style.opacity = 1;
   return (
     <div class="container">
       <div class="header">
@@ -116,12 +119,16 @@ function App() {
           <div class="section__title">SKILLS</div>
         </div>
       </div>
-      <div>
-      <span class="name">JavaScript</span>
-					<progress value="70" max="100"></progress>
-          </div>
+      <b>Javascript</b>
+      <div class="progress">
+        <div class="progress-done" data-done="70">
+          Completed 70%
+        </div>
+      </div>
     </div>
   );
 }
+
+
 
 export default App;

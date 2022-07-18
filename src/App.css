@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -136,31 +137,25 @@ body {
   margin-right: 1%;
 }
 
-#skills span {
-  top: -30px;
-  left: 2%;
-  position: relative;
-  font-size: 1.4em;
-  font-weight: bolder;
-  font-family: monospace;
-  color: #fff;
+.progress {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
+	width: 300px;
 }
 
-progress {
-  background-color: #f3f3f3;
-  border: 0;
-  height: 2.5em;
-  width: 100%;
-}
-
-progress::-webkit-progress-bar {
-  background-color: #e0eaf0;
-}
-
-progress::-webkit-progress-value {
-  background-color: #329ad1;
-}
-
-progress::-moz-progress-bar {
-  background-color: #329ad1;
+.progress-done {
+	background: linear-gradient(to left, #4f3ee7, #a872ff);
+	box-shadow: 0 3px 3px -5px #000000, 0 2px 5px #000000;
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
 }
