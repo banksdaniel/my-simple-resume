@@ -110,6 +110,16 @@ function App() {
           </div>
         </div>
       </div>
+      <br></br>
+      <div class="about">
+        <div class="details">
+          <div class="section__title">SKILLS</div>
+        </div>
+      </div>
+      <div>
+      <span class="name">JavaScript</span>
+					<progress value="70" max="100"></progress>
+          </div>
     </div>
   );
 }
