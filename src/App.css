@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -161,18 +162,21 @@ body {
   text-indent: 100%;
   width: 300px;
 }
+
 .progress-bar--counter {
   margin-left: 10px;
   position: relative;
   top: -1px;
 }
+
 .progress-bar--counter .hidden {
   display: inline-block;
 }
+
 .progress-bar--wrap {
   display: -webkit-box;
   display: -moz-box;
-  display: box;
+  display: flex;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flexbox;
@@ -212,10 +216,18 @@ body {
 .progress-bar--blue {
   color: #54afe4;
 }
+
 .progress-bar--blue .progress-bar--inner {
   background-color: #54afe4;
 }
 
 .progress-bar--blue .progress-bar--inner1 {
   background-color: #54afe4;
+}
+
+
+.desc-about {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
 }
