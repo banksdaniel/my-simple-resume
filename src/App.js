@@ -119,6 +119,10 @@ function App() {
                   <div class="duration">Agosto 2019 - Agosto 2023</div>
                 </div>
               </div>
+              <div class="section__title">COMPETÊNCIAS</div>
+              <div class="desc">
+                  • AWS LAMBDA • AWS ATHENA • AWS DYNAMODB <br></br>• NODEJS • TYPESCRIPT • MYSQL • GRAPHQL• RESTful
+                </div>
             </div>
           </div>
         </div>
